@@ -12,5 +12,7 @@
         "sourceType": "module"
     },
     "rules": {
+        // silencing no-undef to allow jest test and expect functions 
+        "no-undef": "warn"
     }
 }
